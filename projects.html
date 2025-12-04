@@ -1,0 +1,117 @@
+<!--projects.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images1/favicon-32x32.png">
+  <title>My Projects</title>
+
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+      <div class="logo">My Projects</div>
+      <a class=projectBtn href="/index.html">Home Page</a>
+    </div>
+    <div class="header1">
+      <h1 class="title">Project Page</h1>
+      <h2 class="sub-title">This is a selection of my most challenging projects from my first three
+                            semesters of computer science. 
+      </h2>
+    </div>
+    <!-- <button class="my-btn" id="btn-1" >Add Paragraph!</button>
+    <button class="my-btn" id="btn-2" >Remove Paragraph!</button>
+    <div class="container"></div>
+    <script src="JS/buttonScript.js"></script> -->
+
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-left">
+                <img src="images1/Battleship.png" alt="Battleship gameplay">
+                <h2>Battleship Game (CS-150 Fall 2024)</h2>
+            </div>
+            <div class="project-right">
+                <p class="bio-text">
+                    This is my Battleship game from CS-150. I completed
+                    this as a group project with 3 classmates. It's coded 
+                    entirely in C++. The game allows the user to play Battleship
+                    against the computer. It lets the user place their
+                    ships manually or randomly. It tracks and displays hits, misses,
+                    and sunk ships and reports the winner at the end. It also 
+                    reports the result of each move to a log file. </p>
+                <a href="https://github.com/TJoeMoran/CS150_Battleship_Public" class="repo-link">Visit Repository</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-left">
+                <img src="images1/stegoBMP.png" alt="Steganography Tool screenshot">
+                <h2>Command Line Steganography Tool (CS-151 Spring 2025)</h2>
+            </div>
+            <div class="project-right">
+                <p class="bio-text">
+                    This is my stegoBMP command line steganography tool
+                    for CS-151. Steganography is the process of concealing a 
+                    message or other file within a file. This tool works with 
+                    24-bit uncompressed BMP image files to either encode or 
+                    decode messages. It utilizes the unused bits in the binary 
+                    code of the image to store a message, and it can also decode
+                    from an image that contains a hidden message. </p>
+                <a href="https://github.com/TJoeMoran/CS151_stegoBMP_public" class="repo-link">Visit Repository</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-left">
+                <img src="images1/AssemblyCalculator.png" alt="Assembly calculator program">
+                <h2>Assembly Arithmetic Calculator (CS-155 Spring 2025)</h2>
+            </div>
+            <div class="project-right">
+                <p class="bio-text">
+                    This is my assembly language calculator that I wrote
+                    for my CS-155 final project. It's a basic calculator 
+                    that performs addition, subtraction, multiplication, 
+                    and integer division on two-digit values (00 - 99). 
+                    It performs input validation, checks for divide by 0 errors, 
+                    and loops until user chooses to quit the program.</p>
+                <a href="https://github.com/TJoeMoran/CalculatorFinalCS155" class="repo-link">Visit Repository</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-left">
+                <img src="images1/StockScraper.png" alt="Python web scraper program">
+                <h2>Stock Data Web Scraper (CS-270 Fall 2025)</h2>
+            </div>
+            <div class="project-right">
+                <p class="bio-text">
+                    This is my Python web scraper that I coded for CS-270. 
+                    It uses BeautifulSoup to scrape Yahoo Finance for stock
+                    data, and it extracts and stores each stock price. Each 
+                    time the user runs a new check, the program reports the 
+                    current prices and how much each price changed since the
+                    last check. </p>
+                <a href="https://github.com/TJoeMoran/CS270_stockScraper_public" class="repo-link">Visit Repository</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-left">
+                <img src="images1/Lexer.png" alt="Lexical analyzer program in C">
+                <h2>Lexical Analyzer (CS-210 Fall 2025)</h2>
+            </div>
+            <div class="project-right">
+                <p class="bio-text">
+                    This is my lexical analyzer, or lexer, that I coded for 
+                    my CS-210 midterm project. It breaks the input into lexemes
+                    or tokens and labels them by type (comment, keyword, operator, etc.).
+                    This lexer is written in C and was tested using programs written
+                    in CCX, an imaginary language with syntax similar to C and C++. </p>
+                <a href="https://github.com/TJoeMoran/CS210_Lexer_Project_Public" class="repo-link">Visit Repository</a>
+            </div>
+        </div>
+    </div>
+    <script src="JS/cardSlideEffect.js"></script>
+    <script src="JS/buttonAnimation.js"></script>
+</body>
+</html>
